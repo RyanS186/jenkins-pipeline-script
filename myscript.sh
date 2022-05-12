@@ -1,4 +1,2 @@
-echo "Input: "
-read $INPUT
-
-${INPUT}-${BUILD_NUMBER}-DATA >> output
+#!/bin/bash
+echo ${INPUT}-${BUILD_NUMBER}-DATA > output
